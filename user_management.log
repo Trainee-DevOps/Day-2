@@ -1,0 +1,52 @@
+2026-01-30 14:39:30 : Group created: backend
+2026-01-30 14:39:30 : User created: alice (team: backend)
+2026-01-30 14:39:30 : Environment configured for alice
+2026-01-30 14:39:30 : User created: bob (team: backend)
+2026-01-30 14:39:31 : Environment configured for bob
+2026-01-30 14:39:31 : Group created: frontend
+2026-01-30 14:39:31 : User created: charlie (team: frontend)
+2026-01-30 14:39:31 : Environment configured for charlie
+2026-01-30 14:39:31 : User created: diana (team: frontend)
+2026-01-30 14:39:31 : Environment configured for diana
+2026-01-30 14:39:31 : Group created: devops
+2026-01-30 14:39:32 : User created: eric (team: devops)
+2026-01-30 14:39:32 : Environment configured for eric
+2026-01-30 14:42:23 : User removed: alice
+2026-01-30 14:42:23 : User removed: bob
+2026-01-30 14:42:23 : User removed: charlie
+2026-01-30 14:42:23 : User removed: diana
+2026-01-30 14:42:23 : User removed: eric
+2026-01-30 14:42:23 : Project directories removed
+[2026-01-30 15:45:24] [INFO] ==================== User Onboarding Started ====================
+[2026-01-30 15:45:24] [INFO] Script executed by: root
+[2026-01-30 15:45:24] [INFO] Timestamp: Fri Jan 30 03:45:24 PM +0530 2026
+[2026-01-30 15:45:24] [ERROR] CSV file not found: users.csv
+[2026-01-30 15:46:27] [INFO] ==================== User Onboarding Started ====================
+[2026-01-30 15:46:27] [INFO] Script executed by: root
+[2026-01-30 15:46:27] [INFO] Timestamp: Fri Jan 30 03:46:27 PM +0530 2026
+[2026-01-30 15:46:27] [SUCCESS] CSV file validated: users.csv
+[2026-01-30 15:46:27] [INFO] Creating backup directory: /var/backups/user_onboarding
+[2026-01-30 15:46:28] [SUCCESS] System files backed up to: /var/backups/user_onboarding/backup_20260130_154627.tar.gz
+[2026-01-30 15:46:28] [INFO] Starting user creation process
+[2026-01-30 15:46:28] [INFO] Reading from CSV file: users.csv
+[2026-01-30 15:49:29] [INFO] ==================== User Onboarding Started ====================
+[2026-01-30 15:49:29] [INFO] Script executed by: root
+[2026-01-30 15:49:29] [INFO] Timestamp: Fri Jan 30 03:49:29 PM +0530 2026
+[2026-01-30 15:49:29] [SUCCESS] CSV file validated: users.csv
+[2026-01-30 15:49:29] [INFO] Creating backup directory: /var/backups/user_onboarding
+[2026-01-30 15:49:29] [SUCCESS] System files backed up to: /var/backups/user_onboarding/backup_20260130_154929.tar.gz
+[2026-01-30 15:49:29] [INFO] Starting user creation process
+[2026-01-30 15:49:29] [INFO] Reading from CSV file: users.csv
+2026-01-30 16:20:27 : User created: alice (team: backend)
+2026-01-30 16:20:27 : Environment configured for alice
+2026-01-30 16:20:27 : User created: bob (team: backend)
+2026-01-30 16:20:27 : Environment configured for bob
+2026-01-30 16:20:27 : User created: charlie (team: frontend)
+2026-01-30 16:20:27 : Environment configured for charlie
+2026-01-30 16:20:28 : User created: diana (team: frontend)
+2026-01-30 16:20:28 : Environment configured for diana
+2026-01-30 16:20:28 : User created: eric (team: devops)
+2026-01-30 16:20:28 : Environment configured for eric
+2026-01-30 16:20:28 : Group created: 
+2026-01-30 16:20:28 : User created:  (team: )
+2026-01-30 16:20:28 : Environment configured for 
