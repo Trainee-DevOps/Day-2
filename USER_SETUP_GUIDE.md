@@ -15,7 +15,8 @@ This automation sets up multiple developer accounts with proper permissions, tea
 
 
 ## Directory Structure
-/projects ├── backend │ ├── alice │ ├── bob │ └── shared ├── frontend │ ├── charlie │ ├── diana │ └── shared └── devops ├── eric └── shared
+/projects 
+├── backend │ ├── alice │ ├── bob │ └── shared ├── frontend │ ├── charlie │ ├── diana │ └── shared └── devops ├── eric └── shared
 
 
 
@@ -33,20 +34,24 @@ This automation sets up multiple developer accounts with proper permissions, tea
 ### Create Users
 ```bash
 sudo ./user_onboarding.sh --create
+```
 
-Cleanup Users
+### Cleanup Users
+```bash
 sudo ./user_onboarding.sh --cleanup
+```
 
-Logs
+### Logs
 
-All actions are logged to:
-
+#### All actions are logged to:
+```bash
 /var/log/user_management.log
+```
 
-Notes
+### Notes
 
-Script must be run as root
+- Script must be run as root
 
-CSV file must be in the same directory as the script
+- CSV file must be in the same directory as the script
 
-Passwords can be set manually or via chpasswd
+- Passwords can be set manually or via chpasswd
