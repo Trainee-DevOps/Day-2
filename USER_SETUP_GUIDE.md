@@ -15,8 +15,18 @@ This automation sets up multiple developer accounts with proper permissions, tea
 
 
 ## Directory Structure
-/projects 
-├── backend │ ├── alice │ ├── bob │ └── shared ├── frontend │ ├── charlie │ ├── diana │ └── shared └── devops ├── eric └── shared
+/projects
+├── backend
+│ ├── alice
+│ ├── bob
+│ └── shared
+├── frontend
+│ ├── charlie
+│ ├── diana
+│ └── shared
+└── devops
+├── eric
+└── shared
 
 
 
